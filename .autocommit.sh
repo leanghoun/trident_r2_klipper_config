@@ -41,7 +41,7 @@ grab_version() {
     m2="Moonraker on commit: ${moonraker_commit}"
   fi
   if [ -n ${mainsail_folder} ]; then
-    mainsail_ver=$(head -n 1 "${mainsail_folder}/.version")
+    mainsail_ver=$(head -n 1 "~/mainsail/.version")
     m3="Mainsail version: ${mainsail_ver}"
   fi
   if [ -n ${fluidd_folder} ]; then
