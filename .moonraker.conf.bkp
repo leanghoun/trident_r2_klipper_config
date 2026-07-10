@@ -71,3 +71,13 @@ is_system_service = False
 origin = https://github.com/Cartographer3D/cartographer_firmware.git
 primary_branch = main
 
+[update_manager Klippain-ShakeTune]
+type = git_repo
+origin = https://github.com/Frix-x/klippain-shaketune.git
+path = ~/klippain_shaketune
+virtualenv = /home/leang/klippy-env
+requirements = requirements.txt
+system_dependencies = system-dependencies.json
+primary_branch = main
+managed_services = klipper
+
